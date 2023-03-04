@@ -6,10 +6,10 @@ import java.util.ArrayList;
 public class Program1 {
     public static void main(String[] args) {
         Animal animal = new Animal(null, null, 0);
-        // System.out.println(animal.getColor());
+        System.out.println(animal.getColor());
 
         Animal animal1 = new Animal("Boris");
-        // System.out.println(animal1.getPawsCount());
+        System.out.println(animal1.getPawsCount());
 
         Cat cat1 = new Cat("Мурзик", "серый");
         // System.out.println(animal1.getType());
