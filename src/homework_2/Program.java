@@ -1,10 +1,10 @@
 package src.homework_2;
 
+import src.VetClinic;
 import src.impl.Cat;
 import src.impl.Dog;
 import src.impl.Duck;
 import src.impl.Eagle;
-import src.impl.VetClinic;
 
 // Создать класс Doctor. Создайте интерфейсы Runnable, Flyable, Swimable. У интерфейсов должны быть
 // методы получения скорости заданного действия.
@@ -31,7 +31,7 @@ public class Program {
         Cat cat = new Cat("Барсик", "рыжий");
         Duck duck = new Duck("Федя", "коричневый");
         Eagle eagle = new Eagle("Кеша");
-        
+
         System.out.println(cat.getRunSpeed());
         System.out.println(duck.getSwimSpeed());
         System.out.println(eagle.getFlightSpeed());
