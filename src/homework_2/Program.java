@@ -27,5 +27,13 @@ public class Program {
         System.out.println(vetClinic.getFlyables());
         System.out.println(vetClinic.getRunnables());
         System.out.println(vetClinic.getSwimables());
+
+        Cat cat = new Cat("Барсик", "рыжий");
+        Duck duck = new Duck("Федя", "коричневый");
+        Eagle eagle = new Eagle("Кеша");
+        
+        System.out.println(cat.getRunSpeed());
+        System.out.println(duck.getSwimSpeed());
+        System.out.println(eagle.getFlightSpeed());
     }    
 }
