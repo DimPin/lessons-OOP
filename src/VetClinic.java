@@ -1,9 +1,8 @@
-package src.impl;
+package src;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import src.Animal;
 import src.interfaces.Flyable;
 import src.interfaces.Runnable;
 import src.interfaces.Swimable;
