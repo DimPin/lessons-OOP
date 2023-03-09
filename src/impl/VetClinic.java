@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import src.Animal;
-import src.Flyable;
-import src.Runnable;
-import src.Swimable;
+import src.interfaces.Flyable;
+import src.interfaces.Runnable;
+import src.interfaces.Swimable;
 
 public class VetClinic {
     private List<Animal> animals;
