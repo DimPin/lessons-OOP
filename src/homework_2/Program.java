@@ -1,4 +1,4 @@
-package src;
+package src.homework_2;
 
 import src.impl.Cat;
 import src.impl.Dog;
