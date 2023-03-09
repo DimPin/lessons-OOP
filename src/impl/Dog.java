@@ -1,9 +1,9 @@
-package homework_2.impl;
+package src.impl;
 
-import homework_2.Animal;
-import homework_2.Illable;
-import homework_2.Runnable;
-import homework_2.Swimable;
+import src.Animal;
+import src.interfaces.Illable;
+import src.interfaces.Runnable;
+import src.interfaces.Swimable;
 
 public class Dog extends Animal implements Runnable, Swimable, Illable {
     public Dog (String name, String color) {

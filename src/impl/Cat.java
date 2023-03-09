@@ -1,9 +1,10 @@
-package lesson_2.impl;
+package src.impl;
 
-import lesson_2.Animal;
-import lesson_2.Illable;
+import src.Animal;
+import src.interfaces.Illable;
+import src.interfaces.Runnable;
 
-public class Cat extends Animal implements Illable {
+public class Cat extends Animal implements Illable, Runnable {
     public Cat(String name, String color) {
         super(name, color, 4);
     }
@@ -30,5 +31,11 @@ public class Cat extends Animal implements Illable {
 
     public void getIll() {
         System.out.printf("%s заболел%n", this.getType());
+    }
+
+    @Override
+    public int getRunSpeed() {
+        // TODO Auto-generated method stub
+        return 45;
     }
 }

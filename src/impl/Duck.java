@@ -1,10 +1,10 @@
-package homework_2.impl;
+package src.impl;
 
-import homework_2.Animal;
-import homework_2.Flyable;
-import homework_2.Illable;
-import homework_2.Runnable;
-import homework_2.Swimable;
+import src.Animal;
+import src.interfaces.Flyable;
+import src.interfaces.Illable;
+import src.interfaces.Runnable;
+import src.interfaces.Swimable;
 
 public class Duck extends Animal implements Flyable, Illable, Swimable, Runnable {
     public Duck(String name, String color) {

@@ -1,8 +1,8 @@
-package homework_2.impl;
+package src.impl;
 
-import homework_2.Animal;
-import homework_2.Flyable;
-import homework_2.Illable;
+import src.Animal;
+import src.interfaces.Flyable;
+import src.interfaces.Illable;
 
 public class Eagle extends Animal implements Flyable, Illable {
     public Eagle(String name) {

@@ -1,4 +1,4 @@
-package homework_2;
+package src;
 
 public interface Swimable {
     int getSwimSpeed();

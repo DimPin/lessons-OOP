@@ -1,10 +1,10 @@
-package homework_2;
+package src;
 
-import homework_2.impl.Duck;
-import homework_2.impl.Eagle;
-import homework_2.impl.Cat;
-import homework_2.impl.Dog;
-import homework_2.impl.VetClinic;
+import src.impl.Cat;
+import src.impl.Dog;
+import src.impl.Duck;
+import src.impl.Eagle;
+import src.impl.VetClinic;
 
 // Создать класс Doctor. Создайте интерфейсы Runnable, Flyable, Swimable. У интерфейсов должны быть
 // методы получения скорости заданного действия.

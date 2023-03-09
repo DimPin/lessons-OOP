@@ -1,6 +1,6 @@
-package homework_2.impl;
+package src.impl;
 
-import lesson_2.Illable;
+import src.interfaces.Illable;
 
 public class Human implements Illable {
     @Override
