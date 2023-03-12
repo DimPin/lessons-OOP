@@ -1,5 +1,7 @@
 package src.drugs;
 
+import java.util.Objects;
+
 public class Component {
     private String name;
     private String weight;
@@ -30,5 +32,22 @@ public class Component {
                 ", weight='" + weight + '\'' +
                 ", power=" + power +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null || getClass() != obj.getClass())
+            return false;
+        Component component = (Component) obj;
+        return weight.equals(component.weight) && name.equals(component.name) 
+            && power == component.power;
+    }
+
+    @Override
+    public int hashCode() {
+        int prime = 1;
+        return prime*Objects.hash(name, weight, power);
     }
 }

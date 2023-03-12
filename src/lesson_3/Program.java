@@ -34,7 +34,6 @@ public class Program {
         drugs.add(drug);
         drugs.add(drug2);
         drugs.add(drug3);
-        // System.out.println(drugs);
 
         Collections.sort(drugs);
         System.out.println(drugs);

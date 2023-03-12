@@ -6,7 +6,7 @@ public class Doctor {
     private String name;
     private String age;
     private String gender;
-    int count_patients = 0;
+    int countPatients = 0;
     ArrayList<String> name_patient = new ArrayList<>();
 
     public Doctor(String name, String age, String gender) {
@@ -27,16 +27,16 @@ public class Doctor {
         return name;
     }
 
-    public int getCount_patients() {
-        return count_patients;
+    public int getCountPatients() {
+        return countPatients;
     }
 
-    public ArrayList<String> getName_patient() {
+    public ArrayList<String> getNamePatient() {
         return name_patient;
     }
 
-    public void add_patient(String name) {
-        count_patients++;
+    public void addPatient(String name) {
+        countPatients++;
         name_patient.add(name);
     }
 }
