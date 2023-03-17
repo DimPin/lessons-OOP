@@ -1,4 +1,4 @@
-package src.gb;
+package src.lesson_4.gb;
 
 public interface GBList<T> extends Iterable<T> {
     boolean add(T type);

@@ -1,4 +1,4 @@
-package src.gb.list;
+package src.lesson_4.gb.list;
 
 import java.util.Iterator;
 

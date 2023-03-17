@@ -1,8 +1,8 @@
-package src.gb.list;
+package src.lesson_4.gb.list;
 
 import java.util.Iterator;
 
-import src.gb.GBList;
+import src.lesson_4.gb.GBList;
 
 public class GBArrayList<T> implements GBList<T> {
     private T[] values;

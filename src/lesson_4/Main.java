@@ -1,7 +1,7 @@
 package src.lesson_4;
 
-import src.gb.GBList;
-import src.gb.list.GBArrayList;
+import src.lesson_4.gb.GBList;
+import src.lesson_4.gb.list.GBArrayList;
 
 public class Main {
     public static void main(String[] args) {
